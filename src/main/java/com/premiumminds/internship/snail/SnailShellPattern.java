@@ -28,7 +28,7 @@ class SnailShellPattern implements ISnailShellPattern {
             int[] resultado = new int[matrix.length * matrix.length];
             public int[] call() throws Exception {
         
-                int count = matrix.length * matrix.length;
+                int count = 0;
         
                 int[][] vazio = new int[][] {{}};
                 
